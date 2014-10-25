@@ -1,37 +1,35 @@
 @import "fonts/stylesheet.css";
 
-#cabecalho h1{
-	font-family: Ravie;
-	font-size: 36px;
-	color: #e90c0c;
-}
 
-#cabecalho{
-	float:right;
-}
-
-#cabecalho h2{
-	font-family: Trebuchet MS;
-	font-size: 24px;
-	color: #333;
-	
-}
-
-#roxo{
-	color: #d027aa;
-	
-}
 
 #recipiente{
 	background-image:linear-gradient(to bottom, #f6f1b2, #4599b2);
 	width: 800px;
-
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #D3D3D3;
+	position: relative;
 }
 
+#cabecalho h1 {
+	font-size: 36px;
+    color: #e90c0c;
+    font-family: Ravie;
+    margin-bottom: 0px;
+    margin-left: 150px;
+}
 
+#cabecalho h2 {
+    font-family: Trebuchet MS;
+    font-size: 24px;
+    color: #333;
+    margin: 0px;
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: 5px;
+}
 
-
-/*#cardapio{
-	transform: rotate(270deg);
-
-}*/
+#cabecalho span{
+	color: #d027aa;
+	
+}
