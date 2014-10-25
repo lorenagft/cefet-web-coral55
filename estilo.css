@@ -9,6 +9,8 @@
 	margin-left: auto;
 	border: 1px solid #D3D3D3;
 	position: relative;
+	
+
 }
 
 #cabecalho h1 {
@@ -31,5 +33,41 @@
 
 #cabecalho span{
 	color: #d027aa;
+	
+}
+
+#lateral{
+	position: absolute;
+    width: 154px;
+    left: 0px;
+    top:10px;
+}
+
+
+
+#lateral h2{
+	transform: rotate(270deg);
+    font-family: Verdana;
+    font-size: 48px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 240px;
+    margin-bottom: 60px
+}
+
+
+#siri{
+	margin-left: -10px;
+}	
+
+
+#bolhas{
+   margin-bottom: 14px;
+   margin-left: 40px;
+
+}
+
+#peixe{
+	margin-left: -44px;
 	
 }
